@@ -10,7 +10,7 @@ it('add(a, b) adds two numbers and returns the result', function() {
 })
 
 it('subtract(a, b) subtracts b from a and returns the result', function() {
-  expect(subtract(a, b)).toEqual(a - b)
+  expect(subtract(a, b)).toEqual(b - a)
 })
 
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
@@ -22,11 +22,11 @@ it('divide(a, b) divides a by b and returns the result', function() {
 })
 
 it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
+  expect(inc(n)).toEqual(a + 1)
 })
 
 it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
+  expect(dec(n)).toEqual(a - 1)
 })
 
 describe('makeInt(n)', function() {
