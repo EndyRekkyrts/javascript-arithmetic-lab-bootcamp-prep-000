@@ -22,11 +22,11 @@ it('divide(a, b) divides a by b and returns the result', function() {
 })
 
 it('inc(n) increments n and returns the result', function() {
-  expect(inc(n)).toEqual(n + 1)
+  expect(inc(a)).toEqual(a + 1)
 })
 
 it('dec(n) decrements n and returns the result', function() {
-  expect(dec(n)).toEqual(n - 1)
+  expect(dec(a)).toEqual(a - 1)
 })
 
 describe('makeInt(n)', function() {
